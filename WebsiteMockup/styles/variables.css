@@ -1,0 +1,133 @@
+/* ==========================================================================
+   MAYFIELD FARM FLOWERS - CSS VARIABLES
+   Centralized design system variables for consistent styling across all pages
+   ========================================================================== */
+
+:root {
+    /* ==========================================================================
+       COLOR PALETTE - MAYFIELD FARM FLOWERS
+       ========================================================================== */
+
+    /* Primary Colors */
+    --primary-color: #D2691E;              /* Warm Terracotta - logo and accents */
+    --secondary-color: #E67E40;            /* Warm Orange/Coral - highlights */
+    --tertiary-color: #9CAF88;             /* Sage Green - nature elements */
+
+    /* Background Colors */
+    --background-primary: #FFFFFF;         /* Pure White - main backgrounds */
+    --background-secondary: #F0EDE8;       /* Light Beige - section backgrounds */
+    --background-accent: #F5F5DC;          /* Soft Cream/Ivory - card backgrounds */
+    --background-light: #F0EDE8;           /* Light Beige - alternating sections */
+
+    /* Text Colors */
+    --text-primary: #333333;               /* Dark Charcoal - main text */
+    --text-secondary: #666666;             /* Medium Gray - secondary text */
+    --text-light: #999999;                 /* Light Gray - subtle text */
+    --text-color: #333333;                 /* Alias for backwards compatibility */
+
+    /* Green Palette */
+    --green-primary: #9CAF88;              /* Sage Green - main green */
+    --green-secondary: #5F7A61;            /* Deep Green - darker accents */
+    --green-tertiary: #7A8F6B;             /* Medium Green - mid-tone */
+
+    /* Neutral Colors */
+    --white: #FFFFFF;                      /* Pure White */
+    --cream: #F5F5DC;                      /* Soft Cream */
+    --warm-gray: #D3D3D3;                  /* Warm Gray - borders and dividers */
+    --charcoal: #4A4A4A;                   /* Charcoal - navigation and emphasis */
+
+    /* Button Colors */
+    --button-bg: #5F7A61;                  /* Deep Green - primary buttons */
+    --button-hover: #4A5F4D;               /* Darker Green - button hover */
+    --button-secondary: #9CAF88;           /* Sage Green - secondary buttons */
+    --button-secondary-hover: #7A8F6B;     /* Medium Green - secondary hover */
+
+    /* Border Colors */
+    --border-light: #D3D3D3;               /* Warm Gray - light borders */
+    --border-medium: #9CAF88;              /* Sage Green - medium borders */
+
+    /* Overlay Colors */
+    --overlay-dark: rgba(0,0,0,0.4);       /* Dark overlay for hero sections */
+    --overlay-darker: rgba(0,0,0,0.7);     /* Darker overlay for text readability */
+    --overlay-light: rgba(255,255,255,0.9); /* Light overlay */
+
+    /* ==========================================================================
+       TYPOGRAPHY
+       ========================================================================== */
+
+    --font-family: 'Roboto', sans-serif;   /* Primary font family */
+
+    /* Font Sizes */
+    --logo-size: 48px;                     /* Large logo size */
+    --logo-size-mobile: 36px;              /* Mobile logo size */
+    --hero-title-size: 36px;               /* Hero section titles */
+    --hero-title-mobile: 24px;             /* Mobile hero titles */
+    --section-title-size: 32px;            /* Section headings */
+    --card-title-size: 18px;               /* Card titles */
+    --nav-font-size: 14px;                 /* Navigation links */
+    --footer-font-size: 14px;              /* Footer text */
+    --tagline-size: 18px;                  /* Hero taglines */
+
+    /* ==========================================================================
+       LAYOUT & SPACING
+       ========================================================================== */
+
+    /* Responsive Breakpoints */
+    --mobile-breakpoint: 768px;            /* Mobile/tablet breakpoint */
+
+    /* Container & Spacing */
+    --container-padding: 20px;             /* Container horizontal padding */
+    --section-padding: 60px;               /* Section vertical padding */
+    --card-gap: 30px;                      /* Gap between cards */
+    --nav-gap: 30px;                       /* Gap between nav items */
+
+    /* Component Dimensions */
+    --hero-height: 70vh;                   /* Hero section height */
+    --card-image-height: 200px;            /* Standard card image height */
+    --social-icon-size: 35px;              /* Social media icons */
+
+    /* ==========================================================================
+       DESIGN SYSTEM
+       ========================================================================== */
+
+    /* Flat Design - No shadows or rounded borders */
+    --border-radius: 0px;                  /* Flat design - no rounded corners */
+
+    /* ==========================================================================
+       PAGE-SPECIFIC VARIABLES
+       ========================================================================== */
+
+    /* Wedding Page Variables */
+    --wedding-overlay: rgba(0,0,0,0.5);    /* Wedding-specific overlay */
+    --wedding-overlay-text: rgba(0,0,0,0.8); /* Wedding text overlay */
+    --wedding-hero-height: 70vh;           /* Wedding hero height */
+    --wedding-hero-mobile: 60vh;           /* Wedding hero mobile height */
+    --gallery-gap: 20px;                   /* Wedding gallery gap */
+    --gallery-gap-mobile: 15px;            /* Mobile gallery gap */
+    --gallery-min-height: 250px;           /* Gallery item min height */
+    --gallery-large-height: 400px;         /* Large gallery item height */
+    --gallery-mobile-height: 200px;        /* Mobile gallery height */
+    --carousel-height: 500px;              /* Carousel height */
+    --carousel-mobile-height: 300px;       /* Mobile carousel height */
+    --carousel-btn-size: 50px;             /* Carousel button size */
+    --carousel-btn-mobile: 40px;           /* Mobile carousel button */
+    --carousel-dot-size: 12px;             /* Carousel dot size */
+    --step-number-size: 60px;              /* Process step number size */
+    --service-icon-size: 48px;             /* Service icon size */
+    --wedding-grid-gap: 40px;              /* Wedding grid gap */
+    --wedding-grid-gap-mobile: 30px;       /* Mobile wedding grid gap */
+    --wedding-service-padding: 30px 20px;  /* Service item padding */
+    --wedding-step-padding: 30px 20px;     /* Step item padding */
+    --carousel-content-padding: 40px 30px 30px; /* Carousel content padding */
+    --carousel-content-mobile: 30px 20px 20px;  /* Mobile carousel content */
+    --hero-tagline-size: 20px;             /* Wedding hero tagline */
+    --hero-tagline-mobile: 18px;           /* Mobile wedding tagline */
+    --hero-subtitle-size: 16px;            /* Wedding hero subtitle */
+    --hero-subtitle-mobile: 14px;          /* Mobile wedding subtitle */
+    --service-title-size: 20px;            /* Service title size */
+    --step-title-size: 20px;               /* Step title size */
+    --slide-title-size: 24px;              /* Carousel slide title */
+    --slide-title-mobile: 20px;            /* Mobile slide title */
+    --testimonial-size: 20px;              /* Testimonial text size */
+    --step-number-font: 24px;              /* Step number font size */
+}
