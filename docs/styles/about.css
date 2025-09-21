@@ -4,8 +4,10 @@
 /* About page specific styles */
 .about-hero {
     height: 50vh;
+    /* background: linear-gradient(var(--overlay-dark), var(--overlay-dark)),
+                url('/images/About/Main_about.jpg') center/cover; */
     background: linear-gradient(var(--overlay-dark), var(--overlay-dark)),
-                url('/images/About/Main_about.jpg') center/cover;
+                url('https://res.cloudinary.com/deraqcw3j/image/upload/v1758472499/Main_about_hjqber.jpg') center/cover;
     display: flex;
     align-items: center;
     justify-content: center;

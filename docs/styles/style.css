@@ -22,8 +22,10 @@ body {
 
 .hero {
     height: var(--hero-height);
+    /* background: linear-gradient(var(--overlay-dark), var(--overlay-dark)),
+                url('/images/Hero.jpg') center/cover; */
     background: linear-gradient(var(--overlay-dark), var(--overlay-dark)),
-                url('/images/Hero.jpg') center/cover;
+                url('https://res.cloudinary.com/deraqcw3j/image/upload/v1758472477/Hero_gbuxdh.jpg') center/cover;
     display: flex;
     align-items: center;
     justify-content: center;

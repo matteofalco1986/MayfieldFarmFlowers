@@ -4,8 +4,10 @@
 /* Contact page specific styles */
 .contact-hero {
     height: 60vh;
+    /* background: linear-gradient(var(--overlay-dark), var(--overlay-dark)),
+                url('/images/Contact/Main_contact.jpg') center/cover; */
     background: linear-gradient(var(--overlay-dark), var(--overlay-dark)),
-                url('/images/Contact/Main_contact.jpg') center/cover;
+                url('https://res.cloudinary.com/deraqcw3j/image/upload/v1758472500/Main_contact_zbrbby.jpg') center/cover;
     display: flex;
     align-items: center;
     justify-content: center;

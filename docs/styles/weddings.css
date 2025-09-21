@@ -4,8 +4,10 @@
 /* Wedding page specific styles */
 .wedding-hero {
     height: var(--wedding-hero-height);
+    /* background: linear-gradient(var(--overlay-dark), var(--overlay-dark)),
+                url('/images/Weddings/Main_background.jpg') center/cover; */
     background: linear-gradient(var(--overlay-dark), var(--overlay-dark)),
-                url('/images/Weddings/Main_background.jpg') center/cover;
+                url('https://res.cloudinary.com/deraqcw3j/image/upload/v1758472489/Main_background_n6bddh.jpg') center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -131,8 +133,10 @@
 } */
 
 .service-background {
+    /* background: linear-gradient(var(--overlay-dark), var(--overlay-dark)),
+    url('/images/Weddings/Main_background.jpg') center/cover; */
     background: linear-gradient(var(--overlay-dark), var(--overlay-dark)),
-    url('/images/Weddings/Main_background.jpg') center/cover;
+    url('https://res.cloudinary.com/deraqcw3j/image/upload/v1758472489/Main_background_n6bddh.jpg') center/cover;
     height: 160px;
     width: 100%;
 }
