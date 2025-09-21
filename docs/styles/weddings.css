@@ -451,8 +451,8 @@
 }
 
 .cta-button.primary:hover {
-    background: var(--background-primary);
-    color: var(--button-bg);
+    background: var(--green-primary);
+    /* color: var(--button-bg); */
     /* border-color: var(--button-bg); */
 }
 

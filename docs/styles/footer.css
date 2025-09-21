@@ -38,6 +38,11 @@ footer {
     text-decoration: none;
 }
 
+.footer-section img {
+    width: 90px;
+    height: auto;
+}
+
 .social-icons {
     display: flex;
     justify-content: start;
@@ -130,7 +135,7 @@ footer {
         grid-template-columns: 1fr 1fr;
         grid-template-areas:
         "c b"
-        "a a";
+        "a d";
         gap: 20px;
         margin-bottom: 20px;
     }
@@ -145,6 +150,13 @@ footer {
     
     .footer-section:nth-child(3) {
         grid-area: b;
+    }
+    .footer-section:nth-child(4) {
+        grid-area: d;
+    }
+    .footer-section:nth-child(4) img {
+        width: 100%;
+        height: auto;
     }
     
 }
